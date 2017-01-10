@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>sir.suriv@gmail.com</email>
+		<name>Diogo Pereira</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<longdescription lang="en">
+		Huggle is a fast diff browser application intended for dealing
+		with vandalism on Wikimedia projects, written in C++. Rollback
+		permission is required to use it in unrestricted mode on
+		English Wikipedia.
+
+		Huggle is able to load and review edits made to Wikipedia in
+		real time, helps users identify unconstructive edits, and
+		allows them to be reverted quickly.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">huggle/huggle3-qt-lx</remote-id>
+		<bugs-to>https://github.com/huggle/huggle3-qt-lx/issues</bugs-to>
+		<doc lang="en">https://www.mediawiki.org/wiki/Manual:Huggle</doc>
+	</upstream>
+</pkgmetadata>
