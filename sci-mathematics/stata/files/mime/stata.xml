@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-stata-dta">
+    <comment>Stata Dataset</comment>
+    <magic priority="80">
+      <match type="string" value="&lt;stata_dta&gt;&lt;header&gt;&lt;release&gt;" offset="0"/>
+    </magic>
+  </mime-type>
+  <mime-type type="application/x-stata-gph">
+    <comment>Stata Graph</comment>
+    <glob pattern="*.gph"/>
+  </mime-type>
+  <mime-type type="application/x-stata-smcl">
+    <comment>Stata SMCL document</comment>
+    <glob pattern="*.smcl"/>
+    <glob pattern="*.sthlp"/>
+  </mime-type>
+  <mime-type type="application/x-stata-stpr">
+    <comment>Stata Project</comment>
+    <glob pattern="*.stpr"/>
+  </mime-type>
+  <mime-type type="application/x-stata-stsem">
+    <comment>Stata SEM Path Diagram</comment>
+    <glob pattern="*.stsem"/>
+  </mime-type>
+  <mime-type type="text/x-stata-ado">
+    <comment>Stata Ado-file</comment>
+    <glob pattern="*.ado"/>
+  </mime-type>
+  <mime-type type="text/x-stata-do">
+    <comment>Stata Do-file</comment>
+    <glob pattern="*.do"/>
+  </mime-type>
+</mime-info>
