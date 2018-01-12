@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>sir.suriv@gmail.com</email>
+		<name>Diogo Pereira</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<longdescription lang="en">
+		Torchlight II is an action role-playing game developed by Runic Games.
+		It is the sequel to Runic's 2009 ARPG, Torchlight, and features
+		peer-to-peer multiplayer support and extended modding capabilities.
+		Torchlight II takes place in a fantasy world where the player controls
+		the hero in the story who intends to banish the evil from the world.
+	</longdescription>
+	<use>
+		<flag name="bundled-libs">Use bundled libraries</flag>
+	</use>
+</pkgmetadata>
