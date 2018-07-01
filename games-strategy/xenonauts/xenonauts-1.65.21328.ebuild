@@ -1,13 +1,13 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit desktop eutils unpacker
 
 DESCRIPTION="Xenonauts"
 HOMEPAGE="https://www.gog.com/game/xenonauts"
-SRC_URI="gog_xenonauts_2.1.0.4.sh"
+SRC_URI="xenonauts_en_$(ver_rs 1- _).sh"
 
 LICENSE="GOG-EULA"
 SLOT="0"
@@ -56,6 +56,6 @@ src_install() {
 	fperms +x "${dir}/Xenonauts.bin.x86"
 
 	newicon "support/icon.png" "${PN}.png"
-	make_wrapper ${PN} "./Xenonauts.bin.x86" "${dir}"
+	make_wrapper ${PN} "./Xenonauts.bin.x86" "${dir}" "${dir}/lib"
 	make_desktop_entry "${PN}" "Xenonauts" "${PN}"
 }
